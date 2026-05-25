@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0495bed9-a1c4-40d7-b032-5637f0ab14c0"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LogoutSteps"
+	namespace="MyTest_2">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="23;27"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f4a3dd7a-93fa-422a-aecb-8983babd7cbe"
+		sx="1839"
+		sy="165"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8194d1fc-a005-425c-89fe-85f39ab1603a"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation, uiautomationinvoke, uiautomationscrollitem, uiautomationvalue"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="link"
+				rect="1816,138,74,69"
+				role="link"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+						
+					</attribute>
+					<attribute
+					name="url"
+					type="System.String">
+						https://katalon-demo-cura.herokuapp.com/#
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						menu-toggle
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						btn btn-dark btn-lg toggle
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Hyperlink
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Chrome
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						link
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAComWrapper, Version=1.1.0.15, Culture=neutral, PublicKeyToken=78cbcf77433a85e5">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						12140
+					</attribute>
+					<attribute
+					name="uiautomationvalueisreadonly"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="uiautomationvaluevalue"
+					type="System.String">
+						https://katalon-demo-cura.herokuapp.com/#
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'CURA Healthcare Service -']//link[@automationid='menu-toggle']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="ea5d85ac-fb59-4bfd-8f33-60c051db536f">
+				/9j/4AAQSkZJRgABAQEAkACQAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9V
+XVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSk
+pKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAGBARgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCzRRRW
+xwhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFNdnXG1N344pm+X/nj/wCPCgdi
+WimoWI+Zdp9M5p1AgooooAKKKKACmu6oMscU6oFUyM5LuMMQADikND1mjY4Dc1JVWYFNy7iw2hhn
+nBzVqgGgooopiCiiigApGYKu5jgCloIyMGgAByMim7137c/NjOKgdjCxRDkH1/hqaJAi8HJPJPrS
+HYfRRRTEFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVEElRm2FC
+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
+RUkbrIgdTkHpRSuOyOWooorsOUKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKZ
+N90fWn0yb7o+tZVvgZ0YT+PH1J6KKKsYUUUUAFFFFABRRRQAVA/+vH0qeoH/ANePpWdTp6o1pfa9
+H+R0ixGbToow23KLz+FV/wCy2/56j8quWn/HpD/1zX+VTVk9zNbEFpbm3jKl92Tn6UVPRSGcpRRR
+XYcgUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUyb7o+tPpk33R9ayrfAzown8
+ePqT0UUVYxOSyqqs7scKq9Sa0baGwkgRnlKvjDKzYII4Ix9aq2H/ACErX/fb/wBAapg1tGXM9pcO
+XnlUOgyGO5jgAHPbHSs5S1sNFn7Lp3/Pcf8AfYpPsunf89x/32KYj6PJwsq55G0lgfyPNP8AL0v+
+8P8Avo0r+oGY4UOwU5UE4PtSUr7d7bPu5OPpSVqIKgf/AF4+lT1A/wDrx9KzqdPVGtL7Xo/yOotP
++PSH/rmv8qmqG0/49If+ua/yqasnuZrYKKKKQzlKKKK7DkCiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACmTfdH1p9Mm+6PrWVb4GdGE/jx9Sekw7OqRoXdzhVBxzgn+lLTXUsBtYo4
+OVYdQfWqfkMnsRImq20c0TRSBm+Vu/yNyD3FbKWpXyvmB8uZ5enXdu4/8e/SotNvFvUAmVRcxdR+
+m4exq/WEm29SjLu7eGBLYXGChuXYkA/xBz2/D8qT/iVf53UmvONttH3Mhb8ApH9RWbVwV0Jivt3t
+s+7k4+lJRRWogqB/9ePpU9QP/rx9KzqdPVGtL7Xo/wAjqLT/AI9If+ua/wAqmqG0/wCPSH/rmv8A
+Kpqye5mtgooopDOUooorsOQKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKZN90
+fWn0yb7o+tZVvgZ0YT+PH1J6KTcKNwqwug+ZXWSN2jkX7rDt+Herq6xdhMNBCzf3t5AP4Y/rVLcK
+NwqXFMOZdxXeWeYzztukIxgDhR6Cik3CjcKpKwcy7i0Um4UbhQF0LUD/AOvH0qbcKhf/AF4+lZ1O
+nqjai0+b0f5HUWn/AB6Q/wDXNf5VNUNp/wAekP8A1zX+VTVk9zNbBRRRSGcpRRRXYcgUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUjKGGDS0Umk1ZjjJxfNHcZ5S+po8pfU0+is/Y
+w7HR9br/AMzGeUvqaPKX1NPoo9jDsH1uv/MxnlL6mjyl9TT6KPYw7B9br/zMZ5S+po8pfU0+ij2M
+OwfW6/8AMxnlL6mhYwpyCafRTVKCd0iXiq0lZyOltP8Aj0h/65r/ACqaobT/AI9If+ua/wAqmrB7
+lrYKKKKQzlKKKK7DkCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKAOltP+PSH/rmv8qmqG0/49If+ua/yqauR7nUtgooopDOUooorsOQKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+6W0/49If+ua/yqaobT/j0h/65r/Kpq5HudS2CiiikM5Siiiuw5AooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigDpbT/j0h/65r/KpqhtP+PS
+H/rmv8qmrke51LYKKKKQzlKKKK7DkCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKAOltP+PSH/rmv8qmqG0/49If+ua/yqauR7nUtgooopDO
+UooorsOQKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooA6W0/49If+ua/yqaobT/j0h/65r/Kpq5HudS2CiiikM5Siiiuw5AooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigDpbT/j0h/6
+5r/KpqhtP+PSH/rmv8qmrke51LYKKKKQzlKKKK7DkCiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAOltP+PSH/rmv8qmqG0/49If+ua/yqau
+R7nUtgooopDOUooorsOQKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooA6W0/49If+ua/yqaobT/j0h/65r/Kpq5HudS2CiiikM5Siiiuw5Ao
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igDpbT/j0h/65r/KpqhtP+PSH/rmv8qmrke51LYKKKKQzlKKKK7DkCiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAOltP+PSH/rmv8qmqG0/
+49If+ua/yqauR7nUtgooopDOUooorsOQKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooA6W0/49If+ua/yqaiiuR7nUtgooopDP/Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="41;12"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8ca7033a-d02d-42c2-8fa7-3be3dcceba72"
+		sx="1593"
+		sy="421"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="22eaa7f9-15c8-4d6f-91c2-9b90b8640d70"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation, uiautomationscrollitem"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="1552,409,62,28"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="backgroundcolor"
+					type="System.String">
+						Logout
+					</attribute>
+					<attribute
+					name="caption"
+					type="System.String">
+						Logout
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Logout
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						Logout
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Chrome
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Logout
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAComWrapper, Version=1.1.0.15, Culture=neutral, PublicKeyToken=78cbcf77433a85e5">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						12140
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'CURA Healthcare Service -']//text[@name='Logout']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="ec1fb1d9-aff6-4d18-8639-017c6c036a9f">
+				/9j/4AAQSkZJRgABAQEAkACQAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9V
+XVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSk
+pKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCABRAPYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCGiiiu
+w5AooooAKKKKACorn/UN+H86lpkyhoyDSewLcz6KseQvqaPIX1NYm5Xoqx5C+po8hfU0AV6KseQv
+qaPIX1NAFeirHkL6mjyF9TQBXoqx5C+po8hfU0AV6KseQvqaPIX1NAFeirHkL6mjyF9TQBXoqx5C
++po8hfU0AV6KseQvqaPIX1NAFeirHkL6mjyF9TQBXoqx5C+po8hfU0AV6KseQvqaKALdFFFbmAUU
+UUAFFFFABTX+4adTX+4aT2GtyKiiisDYKM0UgGSamTaskbUoRknKWyFyKMijAowKXv8AkVah3f3L
+/MMijIowKMCj3/ILUO7+5f5hkUZFGBRgUe/5Bah3f3L/ADDIoowKT+Kk3JblRhSmnyt3Sb6C0UUV
+ocoUUUUAFFFFABRRRQAUUUUAFFFFAE9FFFdBgFFFFABRRRQAU1/uGnU1/uGk9hrciooorA2CrWlw
+xz3ZSVdy7ScZxVWr2if8fx/3TWct0dFL+HP5fmUgCTgcmrR024Ck4UsBkoGG4D6U6G1ntZo5p4is
+asNxPbmriW8qaq1y3EIJYyZ4IxV3MLGdBaSzoXG1Uzjc7YBPpTnsLhZlh2hnbsrA4+vpV2JFurEg
+pI6iYlRFjIHvmnRyO95OrxmB5ItkW7ii4WMu5hNuQGZG4ySh3YGcc46U57SZLhYCBvbGBn1q3aQS
+QWuprMhVvs4IB9MP/hRNcwvq8DmQRqFXJkBTHB9cUXHYjttOMsc5dgGjyANwHPv7VSkQxylDjI44
+ORWpbqXfUo1GXbOB68msuRGjlKOpVh1BqJdPU2oby9H+QlFFFaHOFFFFABRRRQAUUUUAFFFFABRR
+RQBPRRRXQYBRRRQAUUUUAFNf7hp1Nf7hpPYa3IqKKKwNgpB1NLRgVEk200b0pwSlGfXsGRS7jjG7
+j0zSYFGBR7/kO1Du/uX+ZciuoDapBN5q7CSGjI5z65pl3ctdbEhhldIV7AsQD3P5VWwKms7uSxuB
+LGNyHiRP7w9vcULm6ky9lb3Wy3o6tdW+oIjbmkhVVJPchxWrd2jTfa8BT5tuI1z6jd/iKltVtnzd
+W4X9+ASy/wAWP/11YouSczq8EVrqAWBFiBiU4XjnLD+lUSctmtDXWD6oQOqxKD+ZP9aoYFJqTsaw
+nTgm3e7TXkFFFFaHMFFFFABRRRQAUUUUAFFFFABRRRQBPRRRXQYBRRRQAUUUUAFNkICEk4p1RXP+
+ob8P50nsC3Gb1/vD86N6/wB4fnVSisDct71/vD86N6/3h+dVKKALe9f7w/Ojev8AeH51UooAt71/
+vD86N6/3h+dVKKANOx1GSwc+WyyRMctGTj8QexrQk8Rx7P3Vuxf/AG2UAfka5yiiyHcuNKZJHklk
+DO5yxpN6/wB4fnVSigVy3vX+8Pzo3r/eH51UooAt71/vD86N6/3h+dVKKALe9f7w/Ojev94fnVSi
+gC3vX+8Pzo3r/eH51UooAt71/vD86N6/3h+dVKKALe9f7w/OiqlFAGnRRRXQYBRRRQAUUUUAFRXP
++ob8P50UUnsC3KNFFFYmwUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFAH/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="704f2d07-6684-491b-a826-19910e4b4fce"
+	name="MyTest_2Repository"
+	relativepath="MyTest_2Repository.rxrep">
+		<codegen
+		classname="MyTest_2Repository"
+		namespace="MyTest_2">
+		</codegen>
+		<rootfolder
+		id="006cdd6f-eb46-4d77-8a2e-326559a48c5f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LogoutSteps.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,350 @@
+﻿<repository
+id="704f2d07-6684-491b-a826-19910e4b4fce"
+name="MyTest_2Repository">
+	<codegen
+	classname="MyTest_2Repository"
+	namespace="MyTest_2">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="006cdd6f-eb46-4d77-8a2e-326559a48c5f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="text"
+		id="4530af48-7680-41af-bcb6-359549217f16"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/form[@title&gt;'CURA Healthcare Service -']//text[@automationid='view_1012']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d8c418c4-10eb-4206-8cb7-50aa3b456dfe"
+		isrooted="True"
+		name="CURAHealthcareServiceGoogleChrome"
+		refimgid="67a82d1c-b4a3-42ee-aa27-5f7d7fe0c3fa"
+		refpath="/form[@title>'CURA Healthcare Service -']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			capname="unknown"
+			id="662a70ad-a0f9-40a0-a8eb-81fae127e9aa"
+			isrooted="False"
+			name="LoginPage"
+			searchtimeout="0ms">
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem,uiautomationvalue"
+				capname="text"
+				id="fb18c692-9945-4383-9253-3880233496f7"
+				name="TxtUsername"
+				refimgid="d78bb6c9-58a5-4465-92c7-0c8fa084c871"
+				refpath="/form[@title>'CURA Healthcare Service -']/element[@controlid='692378']/text/container[@automationid='login']/container[@classname='col-sm-offset-3 col-sm-6']/container/container[5]/text[@automationid='txt-username']"
+				robustPath="/form[@title>'CURA Healthcare Service -']//text[@automationid='txt-username']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//text[@automationid='txt-username']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem,uiautomationvalue"
+				capname="text"
+				id="ee1efa85-fd48-4cc2-96e3-2dded51dbca7"
+				name="TxtPassword"
+				refimgid="b4e266a8-37fb-4b8d-b140-01a9aee56db7"
+				refpath="/form[@title>'CURA Healthcare Service -']/element[@controlid='692378']/text/container[@automationid='login']/container[@classname='col-sm-offset-3 col-sm-6']/container/container[7]/text[@automationid='txt-password']"
+				robustPath="/form[@title>'CURA Healthcare Service -']//text[@automationid='txt-password']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//text[@automationid='txt-password']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="d6e3244e-3865-4cc0-8dec-46772d385e47"
+				name="BtnLogin"
+				refimgid="669b6af1-d790-4775-b0fb-ed8c865c274c"
+				refpath="/form[@title>'CURA Healthcare Service -']/element[@controlid='713515']/container[@automationid='695838']/text/container[@automationid='login']/container[@classname='col-sm-offset-3 col-sm-6']/container/container[8]/button[@automationid='btn-login']"
+				robustPath="/form[@title>'CURA Healthcare Service -']//button[@automationid='btn-login']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//button[@automationid='btn-login']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="dc37dadc-94bb-432b-bfd2-0eb030d8cc24"
+			isrooted="False"
+			name="LogoutPage"
+			searchtimeout="0ms">
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="22eaa7f9-15c8-4d6f-91c2-9b90b8640d70"
+				name="Logout"
+				refimgid="62f52c83-2f69-475c-919d-adb9a7315328"
+				refpath="/form[@title>'CURA Healthcare Service -']/element/container[@automationid='748']/text/container[@automationid='sidebar-wrapper']/list/listitem[@name='Logout']/link/text[@name='Logout']"
+				robustPath="/form[@title>'CURA Healthcare Service -']//text[@name='Logout']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//text[@name='Logout']
+				</item>
+				<item
+				addcaps="link,uiautomation,uiautomationinvoke,uiautomationscrollitem,uiautomationvalue"
+				capname="link"
+				id="8194d1fc-a005-425c-89fe-85f39ab1603a"
+				name="MenuToggle"
+				refimgid="78c90120-e96e-4b9f-b09b-0991fc881a82"
+				refpath="/form[@title>'CURA Healthcare Service -']/element/container[@automationid='748']/text/link[@automationid='menu-toggle']"
+				robustPath="/form[@title>'CURA Healthcare Service -']//link[@automationid='menu-toggle']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//link[@automationid='menu-toggle']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="2bc208fa-e57f-42e7-ae97-68b3e017f485"
+			isrooted="False"
+			name="ErrorMessageTextValidationPage"
+			searchtimeout="0ms">
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="ece1f4ab-cb85-47b8-a194-6dff4bda05a8"
+				name="LoginFailedPleaseEnsureTheUsername"
+				refimgid="fb332664-723f-4ecb-89ea-7cbf4327e062"
+				refpath="/form[@title='CURA Healthcare Service - Google Chrome']/element[@controlid='695838']/text[@automationid='RootWebArea']/container[@automationid='login']/container[@classname='col-sm-12 text-center']/container[@classname='lead text-danger']/text[@name='Login failed! Please ensure the username and password are valid.']"
+				robustPath="/form[@title>'CURA Healthcare Service -']//text[@name>'Login failed! Please ensure']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//text[@name&gt;'Login failed! Please ensure']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="79149d06-8f28-4119-be40-4f5241193c46"
+			isrooted="False"
+			name="MakeAppointmentTextValidationsPage"
+			searchtimeout="0ms">
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="f1023048-104f-4fb8-89ee-dcaa7f8874c3"
+				name="MakeAppointmentHeaderText"
+				refimgid="81ff4571-4901-47c6-b29c-c33a96a16b74"
+				robustPath="/form[@title>'CURA Healthcare Service -']//text[@orientation='None' and @caption='Make Appointment' and @iscontentelement='True']/text[@name='Make Appointment']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']/element//text[@orientation='None' and @caption='Make Appointment' and @iscontentelement='True']/text[@name='Make Appointment']
+				</item>
+				<item
+				addcaps="tabpage,uiautomation,uiautomationscrollitem"
+				capname="tabpage"
+				id="913d7f0f-3b4a-4384-9063-adf05b0ec26b"
+				name="MakeAppointmentTitleText"
+				refimgid="92159b1f-93bc-4869-992a-70624244ff3a"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//tabpage[@automationid='view_20' and @name='CURA Healthcare Service']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="dafbda24-2fbd-43b8-bd8b-3c6222f06cd8"
+			isrooted="False"
+			name="MakeAppointmentConfirmationPage"
+			searchtimeout="0ms">
+				<item
+				addcaps="checkbox,uiautomation,uiautomationscrollitem,uiautomationtoggle,uiautomationvalue"
+				capname="checkbox"
+				id="830e0992-11ca-4906-a8f6-de2d80683082"
+				name="ChkboxHospotalReadmission"
+				refimgid="d59b372e-4b19-47aa-9c81-88f9c445d8e2"
+				refpath="/form[@title>'CURA Healthcare Service -']/element/text/container[@automationid='appointment']/container[@classname='form-horizontal']/container[3]/checkbox[@automationid='chk_hospotal_readmission']"
+				robustPath="/form[@title>'CURA Healthcare Service -']//checkbox[@automationid='chk_hospotal_readmission']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//checkbox[@automationid='chk_hospotal_readmission']
+				</item>
+				<item
+				addcaps="radiobutton,uiautomation,uiautomationinvoke,uiautomationscrollitem,uiautomationvalue"
+				capname="radiobutton"
+				id="1300d7f2-ed7f-4113-a790-5884a23c65bf"
+				name="RadioProgramMedicare"
+				refimgid="5f8a38c6-7fed-4af1-81de-ec909b697e39"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//radiobutton[@text=$HealthcareProgramType]
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem,uiautomationvalue"
+				capname="text"
+				id="062261b7-a163-4a3b-a79c-547b4a6fc84d"
+				name="TxtVisitDate"
+				refimgid="058e603b-44e5-4395-9e46-858185a6ad5a"
+				refpath="/form[@title>'CURA Healthcare Service -']/element/text/container[@automationid='appointment']/container[@classname='form-horizontal']/container[7]/container/text[@automationid='txt_visit_date']"
+				robustPath="/form[@title>'CURA Healthcare Service -']//text[@automationid='txt_visit_date']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//text[@automationid='txt_visit_date']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem,uiautomationvalue"
+				capname="text"
+				id="6c654bc5-1ee1-4325-8176-2b1ebdaa78c7"
+				name="TxtComment"
+				refimgid="cf0da603-4170-4fc2-b4a2-623b79f6c40d"
+				refpath="/form[@title>'CURA Healthcare Service -']/element/text/container[@automationid='appointment']/container[@classname='form-horizontal']/container[9]/text[@automationid='txt_comment']"
+				robustPath="/form[@title>'CURA Healthcare Service -']//text[@automationid='txt_comment']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//text[@automationid='txt_comment']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="c561fbcc-5065-446d-9f20-90def1b23219"
+				name="BtnBookAppointment"
+				refimgid="11965dd8-bbf7-4372-b4ea-481202180d11"
+				refpath="/form[@title>'CURA Healthcare Service -']/element/text/container[@automationid='appointment']/container[@classname='form-horizontal']/container[10]/button[@automationid='btn-book-appointment']"
+				robustPath="/form[@title>'CURA Healthcare Service -']//button[@automationid='btn-book-appointment']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//button[@automationid='btn-book-appointment']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem"
+				capname="text"
+				id="7550999f-3159-4c32-a102-6f9a88b7a40a"
+				name="AppointmentConfirmation"
+				refimgid="37dce827-6ef0-4664-a68d-491e65d113b1"
+				refpath="/form[@title>'CURA Healthcare Service -']/element/text/container[@automationid='summary']/container[@classname='col-xs-12 text-center']/text/text[@name='Appointment Confirmation']"
+				robustPath="/form[@title>'CURA Healthcare Service -']//text[@orientation='None' and @caption='Appointment Confirmation' and @iscontentelement='False']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//text[@orientation='None' and @caption='Appointment Confirmation' and @iscontentelement='False']
+				</item>
+			</folder>
+			<item
+			addcaps="container,uiautomation,uiautomationscrollitem"
+			capname="container"
+			id="5c7eed60-bb13-4c8f-85d6-4e0156bfc767"
+			name="Summary"
+			refimgid="20b306d7-d919-4f44-a936-9d51c23f8a0d"
+			refpath="/form[@title>'CURA Healthcare Service -']/element/text/container[@automationid='summary']"
+			robustPath="/form[@title>'CURA Healthcare Service -']//container[@automationid='summary']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'CURA Healthcare Service -']//container[@automationid='summary']
+			</item>
+			<basepath>
+				/form[@title&gt;'CURA Healthcare Service -']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALtSURBVDhPdZJZSNRRGMX/PdgULZaFEmajTm6p
+44yTLTo5i0thi75EIFkGPbQQVhC0S/QgKKQ1NaWpIVFPUdZTkI7jEoSlqS3CjFvj0qTNomXp/Q/f
+ifu3rIwO/Djn4TvfvXCvIPxHe4IC8l8mx/d/MibhoTqyQS6ThUavCa69VLB/IjcvL2/u/KxsWpXH
+adDAaVgP7iM6NT3etwcFBcdw9NBBBAeuxG69FjbPawiCMO+vMh926jX4qE/EiC4Rw6kq4v7irR2/
+dGaXDpZqE/onHWjvecaX/Cynqvlp4D6kTaBBbQINp6rQ/bCG2qtOwwPA9rUXxQdy8dx8GXbvADr7
+rDMLik/oaTBFSUPaBF7GoDYBjuR4mmp/CZu9DU9LDqOktBSTk6M4btyApsoyOMZ6sfekfmaB+l4O
+HClKOJKV+LA5jryVZum6SYVeFD1xYXp6Gm73KBhjcLnHIDIGp3MIbzpbISzWBGar7mYjpWoXBjbF
+oX/jOuJlzUUPNIVeyXlhdMwJJjIMjwzAO+5CR9c7XC06AyGmJK1fWbMTnL6kGPre1grVBc8c3PB6
+Xei29aGjqx12+3v09nSBtUSQEFudRXF3diCuejvWVWVJpyvPu2eJ/wnP5vpvYM3h5GtRwNcSDtYU
+RkLwEfWj2KoscGJub6NXDyqQXzmO2HOuf+ASm+XwNcvBGkNIbF4DQfAXlkWVZ1JU+VaKrtgGnvlg
+9NnPiJFwSTm9xIOJqa/wNa0Gs64iX1Ow5NIrRNzMoKhbmYj8A67uYR9MdZNSnpj6AmYNJI7YGARf
+YyB8jUEzz7gsK7xQcSONIszpiDBnzLL2RjoU19OIc+p+IlhDADHLchKtARCtK37/Qq6wawZSXDdC
+YTIi3GTkRcmlbDKCWZYSR2zwB6tfQtna+Tl/LeAKKUrxhF0zILRMR2FXDZCX6Ygz8DQAomUxRMsi
+TNctpL1b/fLndmcl85eFykt14IRc2ULcxfoFEOtkGK31c8+d/wEhSTBTEH/VZwAAAABJRU5ErkJg
+gg==
+			</icon>
+		</appfolder>
+		<folder
+		capname="unknown"
+		id="62e63402-67e1-4812-9805-d176bb381683"
+		isrooted="False"
+		name="HomePage"
+		searchtimeout="0ms">
+			<item
+			addcaps="text,uiautomation,uiautomationscrollitem"
+			capname="text"
+			id="c85e67ac-14a5-4122-8424-1ed8f6bd64c7"
+			name="MakeAppointmentButton"
+			refimgid="a6cc27a2-30db-4600-8d5d-0a0b1718a469"
+			refpath="/form[@title>'CURA Healthcare Service -']/element/text/container[@automationid='top']/link/text[@name='Make Appointment']"
+			robustPath="/form[@title>'CURA Healthcare Service -']//text[@name='Make Appointment']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'CURA Healthcare Service -']//text[@name='Make Appointment']
+			</item>
+		</folder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="466aad3b-a9a8-4b31-b230-b81b2d6280fa"
+		isrooted="True"
+		name="CURAHealthcareServiceAnd6MorePages"
+		refpath="/form[@title='CURA Healthcare Service and 6 more pages - Work - Microsoft​ Edge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="combobox,uiautomation,uiautomationscrollitem,uiautomationvalue"
+			capname="combobox"
+			id="54a19f69-909c-4306-baac-ee8fa64416ff"
+			name="ComboFacility"
+			refimgid="b814d9cf-58e6-4d02-8fa1-ac2e27071361"
+			refpath="/form[@title>'CURA Healthcare Service and']/element/text/container[@automationid='appointment']/container[@classname='form-horizontal']/container[2]/combobox[@automationid='combo_facility']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title&gt;'CURA Healthcare Service and']//combobox[@automationid='combo_facility']
+			</item>
+			<basepath>
+				/form[@title&gt;'CURA Healthcare Service and']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMsSURBVDhPbdBbSJNhHAbwT5eluYPLrKDAi65K
+beo2lTIvSi2z6ZwzvWiK0UE7Q5ZTs2VFJi42W5mkJkaURhQYluFhJ7803TS3b81PbR3AFI2IJCvK
+ntjGsqQH/hcvvP/f+/ASxH/C10+1RBjGf0QaHYgg7Yju68dGc/fEZkvXgYV3/4lQN6sR6D7N8fXT
+CNe/RbhxFDySAr/XjBhTN7ZQrUgeuT0hdVzLXrhLRGlnxwS6GUTqPiBC/x48/WuEGYYRarQgvMeE
+qH4ScS8eI4luxK53amRPniv/syzUfdcItV/B130Gr2MSYR1vEWqgEWKgsN4whA3kAATPuxE7+Bjb
+7beQ+a4Se6dOIP9DvsQF8LXf5sJaP2JlZR+4ZQYEnjNgxYUurL3X7wKcwyN7sdHcggTrTWQ4zmPP
++4M4NL3bSAjaPmuD69+AVWYG55INXOUwAlU0gtR2rFCasVpDIqS9B5E9emwyPUASdQXpI6XIHT+A
+vMms78S65mn4KYbgX06DVTEKjnIMXNUrBF5xYJXSagiqshYEN5JfIrsfIbavAYlDakiGCyF7sw/7
+x6Uglqsd8D1rh98FGv7lI25E0Q/u7oannj/i3e86JSSbEPdcg0RTCVKtx5BFZyPXIQax6DSFxQo7
+lpS5kaUXafjLboGVdr3AA4RrG+Oj9BrEkQps7T0J0UAudlnTIKO3zRCMYmrO58xL+LiQYfidHgRT
+rAFTWvvMAwg6VRXR2nLEGQsQ/ywfIlMWJAMpyKQSSgkvuW2MUWIDo9SN+B58AqakGqyMerCldVku
+oP18fHSnfHaz7gi2GnOwo1cyIzEnZrp5uSXeu4j65V1iw6LSl1hyuANMyXWwMm46gQlWeu3R4JwG
+X08bT7jJlaHzJznV5lVEwYXIB+cbOCf9BthpNTNscfVDTqrmOEdUdTxgp2qUm3wZ80ixRUAUUh+9
+im0uxC+7GSxpLdgZdS6AI6kBR1wNjvgqAlKqECBSfQ3YqTw038ATuXXC2YRR+AL+TsD5+n8Aboo6
+b+GqO4qRNUQhdcariKIZRZZfvnltYMqawJbdxbKcOz854quNy0RVMX+v/Aa3UugpvpkwMAAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="26a1ef91-7177-43b6-8f83-7641ddd96be4"
+		name="HealthcareProgramType">
+			Medicare
+		</var>
+		<var
+		id="f2221938-d4c6-4ee2-9e13-a4c87f62487a"
+		name="FacilityType">
+		</var>
+		<var
+		id="d181b0cb-0173-4d65-9c5b-aeff6b1aa382"
+		name="F">
+		</var>
+	</variables>
+</repository>

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e5bd1dc5-ab48-4e33-a00a-ae5221b124a0"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="MakeAppointmentStep"
+	namespace="MyTest_2">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="78;9"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="67e0fa11-f152-407e-b12f-6a4f3ff41aff"
+		sx="919"
+		sy="606"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c85e67ac-14a5-4122-8424-1ed8f6bd64c7"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation, uiautomationscrollitem"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="841,597,215,35"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="backgroundcolor"
+					type="System.String">
+						Make Appointment
+					</attribute>
+					<attribute
+					name="caption"
+					type="System.String">
+						Make Appointment
+					</attribute>
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Make Appointment
+					</attribute>
+					<attribute
+					name="textcolor"
+					type="System.String">
+						Make Appointment
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						Chrome
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Make Appointment
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAComWrapper, Version=1.1.0.15, Culture=neutral, PublicKeyToken=78cbcf77433a85e5">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						18900
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'CURA Healthcare Service -']//text[@name='Make Appointment']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="41464183-1a9f-4495-856d-8bac22ccb404">
+				/9j/4AAQSkZJRgABAQEAkACQAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9V
+XVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSk
+pKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCABZAR0DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCjn3oB
+57UnNTRxKyhjnNbJXIIsZNJ9BU/kr6mjyF9TTswsQE0rN0qbyV9TS+SvqaLBYh6YpT0HFS+SvvS+
+UvqaVmFiHjFLnjAxUnlL6ml8pfeizCxD+HNB7HrU3lL70eUvvRZhYiA4pRyetSeUMdTShBnvRZhY
+RCckAUx4snrUu0ZyOKXtRysaKUwA4AqL+GrrwK55JpptkIxlqhwZaZn44pV4q79jj9W/Oj7HH6t+
+dLkY7or5yBUUw5q/9mTGMtSG0jPUt+dHIwujNK8UhGDWj9ij/vP+YoNlEe7/AJinyMLooD7wp+ec
+Vc+xR/3n/MUGyjP8T/nRyMLoqg8c07PPtVkWcY/ib86UWqAYy350uRhdFU4pknrV37Knq1IbSM92
+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
+QB//2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="704f2d07-6684-491b-a826-19910e4b4fce"
+	name="MyTest_2Repository"
+	relativepath="MyTest_2Repository.rxrep">
+		<codegen
+		classname="MyTest_2Repository"
+		namespace="MyTest_2">
+		</codegen>
+		<rootfolder
+		id="006cdd6f-eb46-4d77-8a2e-326559a48c5f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		MakeAppointmentSteps.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
