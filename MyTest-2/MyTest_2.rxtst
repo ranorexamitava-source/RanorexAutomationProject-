@@ -88,7 +88,7 @@
 			name="teardown">
 			</teardown>
 			<testsuite
-			ExportColumnList="RowID,Description,User,Computer/Endpoint,OperatingSystem,OSLanguage,Duration,ExecutionTime,EndTime,ScreenResolution,TestSuiteName,TestSuiteDescription,TestSuiteResult,ConfigurationName,TotalSuccess,TotalFailure,TotalBlocked,TotalErrors,,"
+			ExportColumnList="RowID,Description,User,Computer/Endpoint,OperatingSystem,OSLanguage,Duration,ExecutionTime,EndTime,ScreenResolution,TestSuiteName,TestSuiteDescription,TestSuiteResult,ConfigurationName,TotalSuccess,TotalFailure,TotalBlocked,TotalErrors,,,"
 			ReportTime="RelativeToTestSuiteStartTime"
 			SelectedActions="All"
 			TracingScreenshotMode="Foreground"
@@ -154,6 +154,12 @@
 			id="922ba1cd-0003-484f-99dc-308439da166e"
 			name="MakeAppointmentStep"
 			ref="e5bd1dc5-ab48-4e33-a00a-ae5221b124a0"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="92e84bc4-0a54-41dc-ae90-216a4ae638a2"
+			name="Test"
+			ref="07ffe136-19dd-4319-8560-f96edd13af98"
 			type="Recording">
 			</testmodule>
 			<teardown
@@ -379,6 +385,10 @@
 						<testmodule
 						id="e3604b8b-9f3f-4263-a452-aace23e8cc23"
 						name="MakeAppointmentBookedScenarioSteps">
+						</testmodule>
+						<testmodule
+						id="92e84bc4-0a54-41dc-ae90-216a4ae638a2"
+						name="Test">
 						</testmodule>
 						<teardown
 						id="63351e8b-534f-4eee-bf3f-dce902288cd9"
