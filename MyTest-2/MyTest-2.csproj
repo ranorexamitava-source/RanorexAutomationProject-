@@ -174,15 +174,15 @@
       <UserCode>true</UserCode>
       <id>af453a60-f7e7-41d3-bb06-d2b9a0ed210d</id>
     </Compile>
-    <Compile Include="MakeAppointmentStep.cs">
+    <Compile Include="MakeAppointmentCreateStep.cs">
       <BoundTo>9fd1137a-06a6-461a-8b96-e30a505d9097</BoundTo>
-      <DependentUpon>MakeAppointmentStep.rxrec</DependentUpon>
+      <DependentUpon>MakeAppointmentCreateStep.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>e8726d6c-2594-4b88-b5f5-e6cb44b8cefc</id>
     </Compile>
-    <Compile Include="MakeAppointmentStep.UserCode.cs">
+    <Compile Include="MakeAppointmentCreateStep.UserCode.cs">
       <BoundTo>9fd1137a-06a6-461a-8b96-e30a505d9097</BoundTo>
-      <DependentUpon>MakeAppointmentStep.rxrec</DependentUpon>
+      <DependentUpon>MakeAppointmentCreateStep.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>7f0a47b1-8972-4223-92e4-5bb7cbb12fdf</id>
     </Compile>
@@ -231,18 +231,6 @@
     <Compile Include="Program.cs">
       <id>908a547f-2a8c-4076-bd55-70f0aa6940c4</id>
     </Compile>
-    <Compile Include="Test.cs">
-      <BoundTo>41869ba7-6e3e-44c6-944d-367fb2656be8</BoundTo>
-      <DependentUpon>Test.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>de0b1b94-8157-4b23-b4a7-b54d273e8833</id>
-    </Compile>
-    <Compile Include="Test.UserCode.cs">
-      <BoundTo>41869ba7-6e3e-44c6-944d-367fb2656be8</BoundTo>
-      <DependentUpon>Test.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>d41b59fa-d451-4d9f-87f4-df64ac43fb0b</id>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
@@ -268,7 +256,7 @@
       <id>729c466c-bbba-42b9-9142-59ddce32de03</id>
       <recordtableid>0495bed9-a1c4-40d7-b032-5637f0ab14c0</recordtableid>
     </None>
-    <None Include="MakeAppointmentStep.rxrec">
+    <None Include="MakeAppointmentCreateStep.rxrec">
       <BoundTo>16f02f7b-b2d1-436c-ba65-a4f4703bccf3</BoundTo>
       <id>9fd1137a-06a6-461a-8b96-e30a505d9097</id>
       <recordtableid>e5bd1dc5-ab48-4e33-a00a-ae5221b124a0</recordtableid>
@@ -298,11 +286,6 @@
       <BoundTo>16f02f7b-b2d1-436c-ba65-a4f4703bccf3</BoundTo>
       <id>f27a3149-bcd0-499f-a38c-9fc0ada12d2f</id>
       <recordtableid>531e2eed-1dc7-45ef-b706-50879d3ea2cf</recordtableid>
-    </None>
-    <None Include="Test.rxrec">
-      <BoundTo>16f02f7b-b2d1-436c-ba65-a4f4703bccf3</BoundTo>
-      <id>41869ba7-6e3e-44c6-944d-367fb2656be8</id>
-      <recordtableid>07ffe136-19dd-4319-8560-f96edd13af98</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

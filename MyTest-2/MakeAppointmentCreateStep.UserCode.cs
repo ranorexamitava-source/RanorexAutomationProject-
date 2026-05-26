@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace MyTest_2
 {
-    public partial class MakeAppointmentStep
+    public partial class MakeAppointmentCreateStep
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

@@ -41,8 +41,8 @@ namespace MyTest_2
         /// </summary>
         public LoginSteps()
         {
-            Username = "Test";
-            Password = "Test";
+            Username = "";
+            Password = "";
         }
 
         /// <summary>
@@ -72,7 +72,7 @@ namespace MyTest_2
         /// <summary>
         /// Gets or sets the value of variable Password.
         /// </summary>
-        [TestVariable("2029f752-2b31-41fa-b700-9d7a054c9f97")]
+        [TestVariable("26b5aa9e-b95f-4430-90ce-1baa2a60c225")]
         public string Password
         {
             get { return _Password; }
@@ -105,24 +105,24 @@ namespace MyTest_2
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CURAHealthcareServiceGoogleChrome.LoginPage.TxtUsername' at 39;25.", repo.CURAHealthcareServiceGoogleChrome.LoginPage.TxtUsernameInfo, new RecordItemIndex(0));
-            repo.CURAHealthcareServiceGoogleChrome.LoginPage.TxtUsername.Click("39;25");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CURAHealthcareServiceGoogleChrome.LoginPage.TxtUsername' at Center.", repo.CURAHealthcareServiceGoogleChrome.LoginPage.TxtUsernameInfo, new RecordItemIndex(0));
+            repo.CURAHealthcareServiceGoogleChrome.LoginPage.TxtUsername.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Username' with focus on 'CURAHealthcareServiceGoogleChrome.LoginPage.TxtUsername'.", repo.CURAHealthcareServiceGoogleChrome.LoginPage.TxtUsernameInfo, new RecordItemIndex(1));
             repo.CURAHealthcareServiceGoogleChrome.LoginPage.TxtUsername.PressKeys(Username);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CURAHealthcareServiceGoogleChrome.LoginPage.TxtPassword' at 144;36.", repo.CURAHealthcareServiceGoogleChrome.LoginPage.TxtPasswordInfo, new RecordItemIndex(2));
-            repo.CURAHealthcareServiceGoogleChrome.LoginPage.TxtPassword.Click("144;36");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CURAHealthcareServiceGoogleChrome.LoginPage.TxtPassword' at Center.", repo.CURAHealthcareServiceGoogleChrome.LoginPage.TxtPasswordInfo, new RecordItemIndex(2));
+            repo.CURAHealthcareServiceGoogleChrome.LoginPage.TxtPassword.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Password' with focus on 'CURAHealthcareServiceGoogleChrome.LoginPage.TxtPassword'.", repo.CURAHealthcareServiceGoogleChrome.LoginPage.TxtPasswordInfo, new RecordItemIndex(3));
             repo.CURAHealthcareServiceGoogleChrome.LoginPage.TxtPassword.PressKeys(Password);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CURAHealthcareServiceGoogleChrome.LoginPage.BtnLogin' at 38;22.", repo.CURAHealthcareServiceGoogleChrome.LoginPage.BtnLoginInfo, new RecordItemIndex(4));
-            repo.CURAHealthcareServiceGoogleChrome.LoginPage.BtnLogin.Click("38;22");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CURAHealthcareServiceGoogleChrome.LoginPage.BtnLogin' at Center.", repo.CURAHealthcareServiceGoogleChrome.LoginPage.BtnLoginInfo, new RecordItemIndex(4));
+            repo.CURAHealthcareServiceGoogleChrome.LoginPage.BtnLogin.Click();
             Delay.Milliseconds(0);
             
         }

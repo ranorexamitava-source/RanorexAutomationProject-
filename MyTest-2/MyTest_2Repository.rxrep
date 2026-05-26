@@ -51,46 +51,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		usecache="True">
 			<folder
 			capname="unknown"
-			id="662a70ad-a0f9-40a0-a8eb-81fae127e9aa"
-			isrooted="False"
-			name="LoginPage"
-			searchtimeout="0ms">
-				<item
-				addcaps="text,uiautomation,uiautomationscrollitem,uiautomationvalue"
-				capname="text"
-				id="fb18c692-9945-4383-9253-3880233496f7"
-				name="TxtUsername"
-				refimgid="d78bb6c9-58a5-4465-92c7-0c8fa084c871"
-				refpath="/form[@title>'CURA Healthcare Service -']/element[@controlid='692378']/text/container[@automationid='login']/container[@classname='col-sm-offset-3 col-sm-6']/container/container[5]/text[@automationid='txt-username']"
-				robustPath="/form[@title>'CURA Healthcare Service -']//text[@automationid='txt-username']"
-				searchtimeout="30000ms">
-					/form[@title&gt;'CURA Healthcare Service -']//text[@automationid='txt-username']
-				</item>
-				<item
-				addcaps="text,uiautomation,uiautomationscrollitem,uiautomationvalue"
-				capname="text"
-				id="ee1efa85-fd48-4cc2-96e3-2dded51dbca7"
-				name="TxtPassword"
-				refimgid="b4e266a8-37fb-4b8d-b140-01a9aee56db7"
-				refpath="/form[@title>'CURA Healthcare Service -']/element[@controlid='692378']/text/container[@automationid='login']/container[@classname='col-sm-offset-3 col-sm-6']/container/container[7]/text[@automationid='txt-password']"
-				robustPath="/form[@title>'CURA Healthcare Service -']//text[@automationid='txt-password']"
-				searchtimeout="30000ms">
-					/form[@title&gt;'CURA Healthcare Service -']//text[@automationid='txt-password']
-				</item>
-				<item
-				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
-				capname="button"
-				id="d6e3244e-3865-4cc0-8dec-46772d385e47"
-				name="BtnLogin"
-				refimgid="669b6af1-d790-4775-b0fb-ed8c865c274c"
-				refpath="/form[@title>'CURA Healthcare Service -']/element[@controlid='713515']/container[@automationid='695838']/text/container[@automationid='login']/container[@classname='col-sm-offset-3 col-sm-6']/container/container[8]/button[@automationid='btn-login']"
-				robustPath="/form[@title>'CURA Healthcare Service -']//button[@automationid='btn-login']"
-				searchtimeout="30000ms">
-					/form[@title&gt;'CURA Healthcare Service -']//button[@automationid='btn-login']
-				</item>
-			</folder>
-			<folder
-			capname="unknown"
 			id="dc37dadc-94bb-432b-bfd2-0eb030d8cc24"
 			isrooted="False"
 			name="LogoutPage"
@@ -170,6 +130,16 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			name="MakeAppointmentConfirmationPage"
 			searchtimeout="0ms">
 				<item
+				addcaps="combobox,uiautomation,uiautomationscrollitem,uiautomationvalue"
+				capname="combobox"
+				id="54a19f69-909c-4306-baac-ee8fa64416ff"
+				name="ComboFacility"
+				refimgid="b814d9cf-58e6-4d02-8fa1-ac2e27071361"
+				robustPath=""
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//combobox[@automationid='combo_facility']
+				</item>
+				<item
 				addcaps="checkbox,uiautomation,uiautomationscrollitem,uiautomationtoggle,uiautomationvalue"
 				capname="checkbox"
 				id="830e0992-11ca-4906-a8f6-de2d80683082"
@@ -246,6 +216,46 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/form[@title&gt;'CURA Healthcare Service -']//container[@automationid='summary']
 			</item>
+			<folder
+			capname="unknown"
+			id="781a2fe7-8ac9-41a1-a6a5-1360ae065122"
+			isrooted="False"
+			name="LoginPage"
+			searchtimeout="0ms">
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem,uiautomationvalue"
+				capname="text"
+				id="022b0807-ca14-4184-86ec-a87ce040ff23"
+				name="TxtUsername"
+				refimgid="c553a15d-269b-4f9f-988c-6cc0ab7c616c"
+				refpath="/form[@title>'CURA Healthcare Service -']/element[@controlid='1184']/text/container[@automationid='login']/container[@classname='col-sm-offset-3 col-sm-6']/container/container[5]/text[@automationid='txt-username']"
+				robustPath="/form[@title>'CURA Healthcare Service -']//text[@automationid='txt-username']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//text[@automationid='txt-username']
+				</item>
+				<item
+				addcaps="text,uiautomation,uiautomationscrollitem,uiautomationvalue"
+				capname="text"
+				id="d1a13d11-b585-4476-b029-742d86bcbf56"
+				name="TxtPassword"
+				refimgid="b3dd09e4-9601-449e-9974-70c9916076d4"
+				refpath="/form[@title>'CURA Healthcare Service -']/element[@controlid='1184']/text/container[@automationid='login']/container[@classname='col-sm-offset-3 col-sm-6']/container/container[7]/text[@automationid='txt-password']"
+				robustPath="/form[@title>'CURA Healthcare Service -']//text[@automationid='txt-password']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//text[@automationid='txt-password']
+				</item>
+				<item
+				addcaps="button,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+				capname="button"
+				id="b1d58e30-25dc-4574-9049-c7ad62a4034e"
+				name="BtnLogin"
+				refimgid="ff1ff16b-1b2e-45c0-a147-7e1525b1bcbd"
+				refpath="/form[@title>'CURA Healthcare Service -']/element[@controlid='1184']/text/container[@automationid='login']/container[@classname='col-sm-offset-3 col-sm-6']/container/container[8]/button[@automationid='btn-login']"
+				robustPath="/form[@title>'CURA Healthcare Service -']//button[@automationid='btn-login']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'CURA Healthcare Service -']//button[@automationid='btn-login']
+				</item>
+			</folder>
 			<basepath>
 				/form[@title&gt;'CURA Healthcare Service -']
 			</basepath>
@@ -286,49 +296,6 @@ gg==
 				/form[@title&gt;'CURA Healthcare Service -']//text[@name='Make Appointment']
 			</item>
 		</folder>
-		<appfolder
-		addcaps="form,nativewindow"
-		capname="form"
-		id="466aad3b-a9a8-4b31-b230-b81b2d6280fa"
-		isrooted="True"
-		name="CURAHealthcareServiceAnd6MorePages"
-		refpath="/form[@title='CURA Healthcare Service and 6 more pages - Work - Microsoft​ Edge']"
-		searchtimeout="30000ms"
-		usecache="True">
-			<item
-			addcaps="combobox,uiautomation,uiautomationscrollitem,uiautomationvalue"
-			capname="combobox"
-			id="54a19f69-909c-4306-baac-ee8fa64416ff"
-			name="ComboFacility"
-			refimgid="b814d9cf-58e6-4d02-8fa1-ac2e27071361"
-			refpath="/form[@title>'CURA Healthcare Service and']/element/text/container[@automationid='appointment']/container[@classname='form-horizontal']/container[2]/combobox[@automationid='combo_facility']"
-			robustPath=""
-			searchtimeout="30000ms">
-				/form[@title&gt;'CURA Healthcare Service and']//combobox[@automationid='combo_facility']
-			</item>
-			<basepath>
-				/form[@title&gt;'CURA Healthcare Service and']
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
-jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMsSURBVDhPbdBbSJNhHAbwT5eluYPLrKDAi65K
-beo2lTIvSi2z6ZwzvWiK0UE7Q5ZTs2VFJi42W5mkJkaURhQYluFhJ7803TS3b81PbR3AFI2IJCvK
-ntjGsqQH/hcvvP/f+/ASxH/C10+1RBjGf0QaHYgg7Yju68dGc/fEZkvXgYV3/4lQN6sR6D7N8fXT
-CNe/RbhxFDySAr/XjBhTN7ZQrUgeuT0hdVzLXrhLRGlnxwS6GUTqPiBC/x48/WuEGYYRarQgvMeE
-qH4ScS8eI4luxK53amRPniv/syzUfdcItV/B130Gr2MSYR1vEWqgEWKgsN4whA3kAATPuxE7+Bjb
-7beQ+a4Se6dOIP9DvsQF8LXf5sJaP2JlZR+4ZQYEnjNgxYUurL3X7wKcwyN7sdHcggTrTWQ4zmPP
-+4M4NL3bSAjaPmuD69+AVWYG55INXOUwAlU0gtR2rFCasVpDIqS9B5E9emwyPUASdQXpI6XIHT+A
-vMms78S65mn4KYbgX06DVTEKjnIMXNUrBF5xYJXSagiqshYEN5JfIrsfIbavAYlDakiGCyF7sw/7
-x6Uglqsd8D1rh98FGv7lI25E0Q/u7oannj/i3e86JSSbEPdcg0RTCVKtx5BFZyPXIQax6DSFxQo7
-lpS5kaUXafjLboGVdr3AA4RrG+Oj9BrEkQps7T0J0UAudlnTIKO3zRCMYmrO58xL+LiQYfidHgRT
-rAFTWvvMAwg6VRXR2nLEGQsQ/ywfIlMWJAMpyKQSSgkvuW2MUWIDo9SN+B58AqakGqyMerCldVku
-oP18fHSnfHaz7gi2GnOwo1cyIzEnZrp5uSXeu4j65V1iw6LSl1hyuANMyXWwMm46gQlWeu3R4JwG
-X08bT7jJlaHzJznV5lVEwYXIB+cbOCf9BthpNTNscfVDTqrmOEdUdTxgp2qUm3wZ80ixRUAUUh+9
-im0uxC+7GSxpLdgZdS6AI6kBR1wNjvgqAlKqECBSfQ3YqTw038ATuXXC2YRR+AL+TsD5+n8Aboo6
-b+GqO4qRNUQhdcariKIZRZZfvnltYMqawJbdxbKcOz854quNy0RVMX+v/Aa3UugpvpkwMAAAAABJ
-RU5ErkJggg==
-			</icon>
-		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>
@@ -341,6 +308,7 @@ RU5ErkJggg==
 		<var
 		id="f2221938-d4c6-4ee2-9e13-a4c87f62487a"
 		name="FacilityType">
+			Tokyo CURA Healthcare Center
 		</var>
 		<var
 		id="d181b0cb-0173-4d65-9c5b-aeff6b1aa382"

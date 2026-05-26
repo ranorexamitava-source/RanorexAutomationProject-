@@ -19,7 +19,7 @@ mode="Desktop">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="MakeAppointmentStep"
+	classname="MakeAppointmentCreateStep"
 	namespace="MyTest_2">
 	</codegen>
 	<variables>
@@ -235,7 +235,7 @@ QB//2Q==
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		MakeAppointmentSteps.UserCode.cs
+		MakeAppointmentStep.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

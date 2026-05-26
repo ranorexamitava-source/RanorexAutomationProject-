@@ -30,7 +30,6 @@ namespace MyTest_2
         MyTest_2RepositoryFolders.ApplicationUnderTestAppFolder _applicationundertest;
         MyTest_2RepositoryFolders.CURAHealthcareServiceGoogleChromeAppFolder _curahealthcareservicegooglechrome;
         MyTest_2RepositoryFolders.HomePageFolder _homepage;
-        MyTest_2RepositoryFolders.CURAHealthcareServiceAnd6MorePagesAppFolder _curahealthcareserviceand6morepages;
 
         /// <summary>
         /// Gets the singleton class instance representing the MyTest_2Repository element repository.
@@ -50,7 +49,6 @@ namespace MyTest_2
             _applicationundertest = new MyTest_2RepositoryFolders.ApplicationUnderTestAppFolder(this);
             _curahealthcareservicegooglechrome = new MyTest_2RepositoryFolders.CURAHealthcareServiceGoogleChromeAppFolder(this);
             _homepage = new MyTest_2RepositoryFolders.HomePageFolder(this);
-            _curahealthcareserviceand6morepages = new MyTest_2RepositoryFolders.CURAHealthcareServiceAnd6MorePagesAppFolder(this);
         }
 
 #region Variables
@@ -67,7 +65,7 @@ namespace MyTest_2
             set { _HealthcareProgramType = value; }
         }
 
-        string _FacilityType = "";
+        string _FacilityType = "Tokyo CURA Healthcare Center";
 
         /// <summary>
         /// Gets or sets the value of variable FacilityType.
@@ -131,15 +129,6 @@ namespace MyTest_2
         {
             get { return _homepage; }
         }
-
-        /// <summary>
-        /// The CURAHealthcareServiceAnd6MorePages folder.
-        /// </summary>
-        [RepositoryFolder("466aad3b-a9a8-4b31-b230-b81b2d6280fa")]
-        public virtual MyTest_2RepositoryFolders.CURAHealthcareServiceAnd6MorePagesAppFolder CURAHealthcareServiceAnd6MorePages
-        {
-            get { return _curahealthcareserviceand6morepages; }
-        }
     }
 
     /// <summary>
@@ -194,11 +183,11 @@ namespace MyTest_2
         [RepositoryFolder("d8c418c4-10eb-4206-8cb7-50aa3b456dfe")]
         public partial class CURAHealthcareServiceGoogleChromeAppFolder : RepoGenBaseFolder
         {
-            MyTest_2RepositoryFolders.LoginPageFolder _loginpage;
             MyTest_2RepositoryFolders.LogoutPageFolder _logoutpage;
             MyTest_2RepositoryFolders.ErrorMessageTextValidationPageFolder _errormessagetextvalidationpage;
             MyTest_2RepositoryFolders.MakeAppointmentTextValidationsPageFolder _makeappointmenttextvalidationspage;
             MyTest_2RepositoryFolders.MakeAppointmentConfirmationPageFolder _makeappointmentconfirmationpage;
+            MyTest_2RepositoryFolders.LoginPageFolder _loginpage;
             RepoItemInfo _summaryInfo;
 
             /// <summary>
@@ -207,11 +196,11 @@ namespace MyTest_2
             public CURAHealthcareServiceGoogleChromeAppFolder(RepoGenBaseFolder parentFolder) :
                     base("CURAHealthcareServiceGoogleChrome", "/form[@title>'CURA Healthcare Service -']", parentFolder, 30000, null, true, "d8c418c4-10eb-4206-8cb7-50aa3b456dfe", "")
             {
-                _loginpage = new MyTest_2RepositoryFolders.LoginPageFolder(this);
                 _logoutpage = new MyTest_2RepositoryFolders.LogoutPageFolder(this);
                 _errormessagetextvalidationpage = new MyTest_2RepositoryFolders.ErrorMessageTextValidationPageFolder(this);
                 _makeappointmenttextvalidationspage = new MyTest_2RepositoryFolders.MakeAppointmentTextValidationsPageFolder(this);
                 _makeappointmentconfirmationpage = new MyTest_2RepositoryFolders.MakeAppointmentConfirmationPageFolder(this);
+                _loginpage = new MyTest_2RepositoryFolders.LoginPageFolder(this);
                 _summaryInfo = new RepoItemInfo(this, "Summary", ".//container[@automationid='summary']", ".//container[@automationid='summary']", 30000, null, "5c7eed60-bb13-4c8f-85d6-4e0156bfc767");
             }
 
@@ -264,15 +253,6 @@ namespace MyTest_2
             }
 
             /// <summary>
-            /// The LoginPage folder.
-            /// </summary>
-            [RepositoryFolder("662a70ad-a0f9-40a0-a8eb-81fae127e9aa")]
-            public virtual MyTest_2RepositoryFolders.LoginPageFolder LoginPage
-            {
-                get { return _loginpage; }
-            }
-
-            /// <summary>
             /// The LogoutPage folder.
             /// </summary>
             [RepositoryFolder("dc37dadc-94bb-432b-bfd2-0eb030d8cc24")]
@@ -307,111 +287,14 @@ namespace MyTest_2
             {
                 get { return _makeappointmentconfirmationpage; }
             }
-        }
-
-        /// <summary>
-        /// The LoginPageFolder folder.
-        /// </summary>
-        [RepositoryFolder("662a70ad-a0f9-40a0-a8eb-81fae127e9aa")]
-        public partial class LoginPageFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _txtusernameInfo;
-            RepoItemInfo _txtpasswordInfo;
-            RepoItemInfo _btnloginInfo;
 
             /// <summary>
-            /// Creates a new LoginPage  folder.
+            /// The LoginPage folder.
             /// </summary>
-            public LoginPageFolder(RepoGenBaseFolder parentFolder) :
-                    base("LoginPage", "", parentFolder, 0, null, false, "662a70ad-a0f9-40a0-a8eb-81fae127e9aa", "")
+            [RepositoryFolder("781a2fe7-8ac9-41a1-a6a5-1360ae065122")]
+            public virtual MyTest_2RepositoryFolders.LoginPageFolder LoginPage
             {
-                _txtusernameInfo = new RepoItemInfo(this, "TxtUsername", ".//text[@automationid='txt-username']", ".//text[@automationid='txt-username']", 30000, null, "fb18c692-9945-4383-9253-3880233496f7");
-                _txtpasswordInfo = new RepoItemInfo(this, "TxtPassword", ".//text[@automationid='txt-password']", ".//text[@automationid='txt-password']", 30000, null, "ee1efa85-fd48-4cc2-96e3-2dded51dbca7");
-                _btnloginInfo = new RepoItemInfo(this, "BtnLogin", ".//button[@automationid='btn-login']", ".//button[@automationid='btn-login']", 30000, null, "d6e3244e-3865-4cc0-8dec-46772d385e47");
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("662a70ad-a0f9-40a0-a8eb-81fae127e9aa")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The TxtUsername item.
-            /// </summary>
-            [RepositoryItem("fb18c692-9945-4383-9253-3880233496f7")]
-            public virtual Ranorex.Text TxtUsername
-            {
-                get
-                {
-                    return _txtusernameInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The TxtUsername item info.
-            /// </summary>
-            [RepositoryItemInfo("fb18c692-9945-4383-9253-3880233496f7")]
-            public virtual RepoItemInfo TxtUsernameInfo
-            {
-                get
-                {
-                    return _txtusernameInfo;
-                }
-            }
-
-            /// <summary>
-            /// The TxtPassword item.
-            /// </summary>
-            [RepositoryItem("ee1efa85-fd48-4cc2-96e3-2dded51dbca7")]
-            public virtual Ranorex.Text TxtPassword
-            {
-                get
-                {
-                    return _txtpasswordInfo.CreateAdapter<Ranorex.Text>(true);
-                }
-            }
-
-            /// <summary>
-            /// The TxtPassword item info.
-            /// </summary>
-            [RepositoryItemInfo("ee1efa85-fd48-4cc2-96e3-2dded51dbca7")]
-            public virtual RepoItemInfo TxtPasswordInfo
-            {
-                get
-                {
-                    return _txtpasswordInfo;
-                }
-            }
-
-            /// <summary>
-            /// The BtnLogin item.
-            /// </summary>
-            [RepositoryItem("d6e3244e-3865-4cc0-8dec-46772d385e47")]
-            public virtual Ranorex.Button BtnLogin
-            {
-                get
-                {
-                    return _btnloginInfo.CreateAdapter<Ranorex.Button>(true);
-                }
-            }
-
-            /// <summary>
-            /// The BtnLogin item info.
-            /// </summary>
-            [RepositoryItemInfo("d6e3244e-3865-4cc0-8dec-46772d385e47")]
-            public virtual RepoItemInfo BtnLoginInfo
-            {
-                get
-                {
-                    return _btnloginInfo;
-                }
+                get { return _loginpage; }
             }
         }
 
@@ -635,6 +518,7 @@ namespace MyTest_2
         [RepositoryFolder("dafbda24-2fbd-43b8-bd8b-3c6222f06cd8")]
         public partial class MakeAppointmentConfirmationPageFolder : RepoGenBaseFolder
         {
+            RepoItemInfo _combofacilityInfo;
             RepoItemInfo _chkboxhospotalreadmissionInfo;
             RepoItemInfo _radioprogrammedicareInfo;
             RepoItemInfo _txtvisitdateInfo;
@@ -648,6 +532,7 @@ namespace MyTest_2
             public MakeAppointmentConfirmationPageFolder(RepoGenBaseFolder parentFolder) :
                     base("MakeAppointmentConfirmationPage", "", parentFolder, 0, null, false, "dafbda24-2fbd-43b8-bd8b-3c6222f06cd8", "")
             {
+                _combofacilityInfo = new RepoItemInfo(this, "ComboFacility", ".//combobox[@automationid='combo_facility']", "", 30000, null, "54a19f69-909c-4306-baac-ee8fa64416ff");
                 _chkboxhospotalreadmissionInfo = new RepoItemInfo(this, "ChkboxHospotalReadmission", ".//checkbox[@automationid='chk_hospotal_readmission']", ".//checkbox[@automationid='chk_hospotal_readmission']", 30000, null, "830e0992-11ca-4906-a8f6-de2d80683082");
                 _radioprogrammedicareInfo = new RepoItemInfo(this, "RadioProgramMedicare", ".//radiobutton[@text=$HealthcareProgramType]", "", 30000, null, "1300d7f2-ed7f-4113-a790-5884a23c65bf");
                 _txtvisitdateInfo = new RepoItemInfo(this, "TxtVisitDate", ".//text[@automationid='txt_visit_date']", ".//text[@automationid='txt_visit_date']", 30000, null, "062261b7-a163-4a3b-a79c-547b4a6fc84d");
@@ -665,6 +550,30 @@ namespace MyTest_2
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ComboFacility item.
+            /// </summary>
+            [RepositoryItem("54a19f69-909c-4306-baac-ee8fa64416ff")]
+            public virtual Ranorex.ComboBox ComboFacility
+            {
+                get
+                {
+                    return _combofacilityInfo.CreateAdapter<Ranorex.ComboBox>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ComboFacility item info.
+            /// </summary>
+            [RepositoryItemInfo("54a19f69-909c-4306-baac-ee8fa64416ff")]
+            public virtual RepoItemInfo ComboFacilityInfo
+            {
+                get
+                {
+                    return _combofacilityInfo;
                 }
             }
 
@@ -814,6 +723,112 @@ namespace MyTest_2
         }
 
         /// <summary>
+        /// The LoginPageFolder folder.
+        /// </summary>
+        [RepositoryFolder("781a2fe7-8ac9-41a1-a6a5-1360ae065122")]
+        public partial class LoginPageFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _txtusernameInfo;
+            RepoItemInfo _txtpasswordInfo;
+            RepoItemInfo _btnloginInfo;
+
+            /// <summary>
+            /// Creates a new LoginPage  folder.
+            /// </summary>
+            public LoginPageFolder(RepoGenBaseFolder parentFolder) :
+                    base("LoginPage", "", parentFolder, 0, null, false, "781a2fe7-8ac9-41a1-a6a5-1360ae065122", "")
+            {
+                _txtusernameInfo = new RepoItemInfo(this, "TxtUsername", ".//text[@automationid='txt-username']", ".//text[@automationid='txt-username']", 30000, null, "022b0807-ca14-4184-86ec-a87ce040ff23");
+                _txtpasswordInfo = new RepoItemInfo(this, "TxtPassword", ".//text[@automationid='txt-password']", ".//text[@automationid='txt-password']", 30000, null, "d1a13d11-b585-4476-b029-742d86bcbf56");
+                _btnloginInfo = new RepoItemInfo(this, "BtnLogin", ".//button[@automationid='btn-login']", ".//button[@automationid='btn-login']", 30000, null, "b1d58e30-25dc-4574-9049-c7ad62a4034e");
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("781a2fe7-8ac9-41a1-a6a5-1360ae065122")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TxtUsername item.
+            /// </summary>
+            [RepositoryItem("022b0807-ca14-4184-86ec-a87ce040ff23")]
+            public virtual Ranorex.Text TxtUsername
+            {
+                get
+                {
+                    return _txtusernameInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtUsername item info.
+            /// </summary>
+            [RepositoryItemInfo("022b0807-ca14-4184-86ec-a87ce040ff23")]
+            public virtual RepoItemInfo TxtUsernameInfo
+            {
+                get
+                {
+                    return _txtusernameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TxtPassword item.
+            /// </summary>
+            [RepositoryItem("d1a13d11-b585-4476-b029-742d86bcbf56")]
+            public virtual Ranorex.Text TxtPassword
+            {
+                get
+                {
+                    return _txtpasswordInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TxtPassword item info.
+            /// </summary>
+            [RepositoryItemInfo("d1a13d11-b585-4476-b029-742d86bcbf56")]
+            public virtual RepoItemInfo TxtPasswordInfo
+            {
+                get
+                {
+                    return _txtpasswordInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtnLogin item.
+            /// </summary>
+            [RepositoryItem("b1d58e30-25dc-4574-9049-c7ad62a4034e")]
+            public virtual Ranorex.Button BtnLogin
+            {
+                get
+                {
+                    return _btnloginInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnLogin item info.
+            /// </summary>
+            [RepositoryItemInfo("b1d58e30-25dc-4574-9049-c7ad62a4034e")]
+            public virtual RepoItemInfo BtnLoginInfo
+            {
+                get
+                {
+                    return _btnloginInfo;
+                }
+            }
+        }
+
+        /// <summary>
         /// The HomePageFolder folder.
         /// </summary>
         [RepositoryFolder("62e63402-67e1-4812-9805-d176bb381683")]
@@ -863,72 +878,6 @@ namespace MyTest_2
                 get
                 {
                     return _makeappointmentbuttonInfo;
-                }
-            }
-        }
-
-        /// <summary>
-        /// The CURAHealthcareServiceAnd6MorePagesAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("466aad3b-a9a8-4b31-b230-b81b2d6280fa")]
-        public partial class CURAHealthcareServiceAnd6MorePagesAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _combofacilityInfo;
-
-            /// <summary>
-            /// Creates a new CURAHealthcareServiceAnd6MorePages  folder.
-            /// </summary>
-            public CURAHealthcareServiceAnd6MorePagesAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("CURAHealthcareServiceAnd6MorePages", "/form[@title>'CURA Healthcare Service and']", parentFolder, 30000, null, true, "466aad3b-a9a8-4b31-b230-b81b2d6280fa", "")
-            {
-                _combofacilityInfo = new RepoItemInfo(this, "ComboFacility", ".//combobox[@automationid='combo_facility']", "", 30000, null, "54a19f69-909c-4306-baac-ee8fa64416ff");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("466aad3b-a9a8-4b31-b230-b81b2d6280fa")]
-            public virtual Ranorex.Form Self
-            {
-                get
-                {
-                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Self item info.
-            /// </summary>
-            [RepositoryItemInfo("466aad3b-a9a8-4b31-b230-b81b2d6280fa")]
-            public virtual RepoItemInfo SelfInfo
-            {
-                get
-                {
-                    return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The ComboFacility item.
-            /// </summary>
-            [RepositoryItem("54a19f69-909c-4306-baac-ee8fa64416ff")]
-            public virtual Ranorex.ComboBox ComboFacility
-            {
-                get
-                {
-                    return _combofacilityInfo.CreateAdapter<Ranorex.ComboBox>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ComboFacility item info.
-            /// </summary>
-            [RepositoryItemInfo("54a19f69-909c-4306-baac-ee8fa64416ff")]
-            public virtual RepoItemInfo ComboFacilityInfo
-            {
-                get
-                {
-                    return _combofacilityInfo;
                 }
             }
         }

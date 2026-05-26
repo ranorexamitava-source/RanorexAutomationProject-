@@ -33,11 +33,14 @@ namespace MyTest_2
             // Your recording specific initialization code goes here.
         }
 
-        public void ValidateCheckboxAction()
+        public void clickEnterButton()
         {
             // TODO: Replace the following line with your code implementation.
+            Keyboard.Press("{Enter}");
             throw new NotImplementedException();
         }
+
+      
 
     }
 }

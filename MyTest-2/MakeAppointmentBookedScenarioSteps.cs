@@ -42,7 +42,7 @@ namespace MyTest_2
         public MakeAppointmentBookedScenarioSteps()
         {
             HealthcareProgramType = "Medicare";
-            FacilityType = "";
+            FacilityType = "Tokyo CURA Healthcare Center";
         }
 
         /// <summary>
@@ -101,20 +101,18 @@ namespace MyTest_2
 
             Init();
 
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CURAHealthcareServiceAnd6MorePages.ComboFacility' at 148;24.", repo.CURAHealthcareServiceAnd6MorePages.ComboFacilityInfo, new RecordItemIndex(0));
-            //repo.CURAHealthcareServiceAnd6MorePages.ComboFacility.Click("148;24");
-            //Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$FacilityType' with focus on 'CURAHealthcareServiceAnd6MorePages.ComboFacility'.", repo.CURAHealthcareServiceAnd6MorePages.ComboFacilityInfo, new RecordItemIndex(1));
-            repo.CURAHealthcareServiceAnd6MorePages.ComboFacility.PressKeys(FacilityType);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CURAHealthcareServiceGoogleChrome.MakeAppointmentConfirmationPage.ComboFacility' at 148;24.", repo.CURAHealthcareServiceGoogleChrome.MakeAppointmentConfirmationPage.ComboFacilityInfo, new RecordItemIndex(0));
+            repo.CURAHealthcareServiceGoogleChrome.MakeAppointmentConfirmationPage.ComboFacility.Click("148;24");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'yourtext' with focus on 'CURAHealthcareServiceAnd6MorePages.ComboFacility'.", repo.CURAHealthcareServiceAnd6MorePages.ComboFacilityInfo, new RecordItemIndex(2));
-            repo.CURAHealthcareServiceAnd6MorePages.ComboFacility.PressKeys("yourtext");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$FacilityType' with focus on 'CURAHealthcareServiceGoogleChrome.MakeAppointmentConfirmationPage.ComboFacility'.", repo.CURAHealthcareServiceGoogleChrome.MakeAppointmentConfirmationPage.ComboFacilityInfo, new RecordItemIndex(1));
+            repo.CURAHealthcareServiceGoogleChrome.MakeAppointmentConfirmationPage.ComboFacility.PressKeys(FacilityType);
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to 'Seoul CURA Healthcare Center' on item 'CURAHealthcareServiceAnd6MorePages.ComboFacility'.", repo.CURAHealthcareServiceAnd6MorePages.ComboFacilityInfo, new RecordItemIndex(3));
-            //repo.CURAHealthcareServiceAnd6MorePages.ComboFacility.Element.SetAttributeValue("Text", "Seoul CURA Healthcare Center");
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(2));
+            Delay.Duration(5000, false);
+            
+            //ClickEnterButton();
             //Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'CURAHealthcareServiceGoogleChrome.MakeAppointmentConfirmationPage.ChkboxHospotalReadmission' at 6;6.", repo.CURAHealthcareServiceGoogleChrome.MakeAppointmentConfirmationPage.ChkboxHospotalReadmissionInfo, new RecordItemIndex(4));
@@ -160,9 +158,6 @@ namespace MyTest_2
             Report.Screenshot(ReportLevel.Info, "User", "Appointment Confirmation", repo.CURAHealthcareServiceGoogleChrome.MakeAppointmentConfirmationPage.AppointmentConfirmation, false, new RecordItemIndex(14));
             
             Report.Screenshot(ReportLevel.Info, "User", "Appointment Confirmation Details", repo.CURAHealthcareServiceGoogleChrome.Summary, false, new RecordItemIndex(15));
-            
-            ValidateCheckboxAction();
-            Delay.Milliseconds(0);
             
         }
 

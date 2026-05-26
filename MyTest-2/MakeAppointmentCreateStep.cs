@@ -24,29 +24,29 @@ namespace MyTest_2
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The MakeAppointmentStep recording.
+    ///The MakeAppointmentCreateStep recording.
     /// </summary>
     [TestModule("e5bd1dc5-ab48-4e33-a00a-ae5221b124a0", ModuleType.Recording, 1)]
-    public partial class MakeAppointmentStep : ITestModule
+    public partial class MakeAppointmentCreateStep : ITestModule
     {
         /// <summary>
         /// Holds an instance of the MyTest_2Repository repository.
         /// </summary>
         public static MyTest_2Repository repo = MyTest_2Repository.Instance;
 
-        static MakeAppointmentStep instance = new MakeAppointmentStep();
+        static MakeAppointmentCreateStep instance = new MakeAppointmentCreateStep();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public MakeAppointmentStep()
+        public MakeAppointmentCreateStep()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static MakeAppointmentStep Instance
+        public static MakeAppointmentCreateStep Instance
         {
             get { return instance; }
         }
